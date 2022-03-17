@@ -1,0 +1,6 @@
+cd Toolset/cpputest-latest/
+# 32bits（recommend)
+./configure --host=i686-linux-gnu "CXXFLAGS=-m32" "CFLAGS=-m32" "LDFLAGS=-m32"bits
+#64bits
+./configure
+make tdd
